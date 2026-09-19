@@ -2,6 +2,8 @@
 
 ### AI-powered digital twin and diagnostic companion for smartphones.
 
+> **Live Demo:** https://phone-sense.vercel.app/
+
 PhoneSense is a smartphone experience that combines an interactive 3D digital twin, hardware exploration, device diagnostics, and an AI companion into one interface.
 
 Instead of treating a phone as a collection of specifications hidden inside settings pages, PhoneSense turns the device itself into an interactive source of information.
