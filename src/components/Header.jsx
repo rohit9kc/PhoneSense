@@ -1,0 +1,1 @@
+export default function Header(){return <header><a className="brand" href="#top"><b>P</b> Phone<span>Sense</span></a><nav><a className="active" href="#twin">Digital Twin</a><a href="#diagnostics">Diagnostics</a><a href="#companion">AI Companion</a></nav><small><i/> SYSTEM ONLINE</small></header>}

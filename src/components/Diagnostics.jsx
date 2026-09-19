@@ -1,0 +1,3 @@
+import {diagnostics} from '../data/phoneData'
+const icons={battery:'ϟ',temp:'◌',memory:'▤',storage:'▱',network:'⌁',status:'✓'}
+export default function Diagnostics(){return <section id="diagnostics" className="diagnostics"><div className="section-head"><div><p className="eyebrow">LIVE DEVICE SNAPSHOT</p><h2>Diagnostics <em>overview</em></h2></div><span>SIMULATED DEMO DATA</span></div><div className="diagnostic-grid">{diagnostics.map(([name,value,detail,type])=><article className="glass" key={name}><b className={type}>{icons[type]}</b><p>{name}</p><strong>{value}</strong><small>{detail}</small></article>)}</div></section>}

@@ -1,0 +1,2 @@
+import {components} from '../data/phoneData'
+export default function PhoneInfo({selected,onClose}){const x=components[selected]||components.camera;return <aside className="info glass"><button onClick={onClose}>×</button><b className="symbol">{x.icon}</b><p className="eyebrow">{x.eyebrow}</p><h2>{x.title}</h2><div className="specs">{x.specs.map(([a,b])=><div key={b}><strong>{a}</strong><span>{b}</span></div>)}</div><p className="note">{x.note}</p><a>View full details →</a></aside>}
